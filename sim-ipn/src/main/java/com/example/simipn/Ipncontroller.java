@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Ipncontroller {
 	@GetMapping
 	public String getMessage() {
+		System.out.println("Ipn Done");
 		return "IPN Is up";
 	}
 }
